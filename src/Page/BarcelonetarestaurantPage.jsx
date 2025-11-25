@@ -1,41 +1,53 @@
+
+
+
+
 import React from "react";
 
-// Sections from components/HomePage
-import AboutSection from "../components/BarcelonetarestaurantPage/AboutSection";
-import MenuFlipbook from "../components/BarcelonetarestaurantPage/MenuFlipbook";
-import Gallery from "../components/BarcelonetarestaurantPage/Gallery";
+// Common Restaurant Components
+import RestaurantWelcomeSection from "../components/common/restaurant/RestaurantWelcomeSection";
+import RestaurantAboutSection from "../components/common/restaurant/RestaurantAboutSection";
+import RestaurantMenuFlipbook from "../components/common/restaurant/RestaurantMenuFlipbook";
+import RestaurantGallerySection from "../components/common/restaurant/RestaurantGallerySection";
+import RestaurantContactSection from "../components/common/restaurant/RestaurantContactSection";
+import RestaurantMapSection from "../components/common/restaurant/RestaurantMapSection";
+import ContactSection from "../components/BarcelonetarestaurantPage/ContactSection"
+// Restaurant Data
+import { BarcelonetarestaurantData } from "../data/Barcelonetarestaurant/restaurantData";
 
-import ContactSection from "../components/BarcelonetarestaurantPage/ContactSection";
-import MapSection from "../components/BarcelonetarestaurantPage/MapSection";
-import WelcomeSection from "../components/BarcelonetarestaurantPage/WelcomeSection";
 export default function BARCELONE() {
   return (
     <div>
       {/* Hero */}
       <section>
-        <WelcomeSection />
-      </section>
-      <section >
-        <AboutSection/>
+        <RestaurantWelcomeSection {...BarcelonetarestaurantData.welcome} />
       </section>
 
+      {/* About */}
       <section>
-        <MenuFlipbook />
+        <RestaurantAboutSection {...BarcelonetarestaurantData.about} />
       </section>
+
+      {/* Menu */}
       <section>
-        <Gallery />
+        <RestaurantMenuFlipbook {...BarcelonetarestaurantData.menu} />
       </section>
-   
 
+      {/* Gallery */}
+      <section>
+        <RestaurantGallerySection {...BarcelonetarestaurantData.gallery} />
+      </section>
 
-      
-         <section>
+      {/* Contact */}
+      <section>
         <ContactSection />
+        {/* <RestaurantContactSection {...alnaseebData.contact} /> */}
       </section>
+
+      {/* Map */}
       <section>
-        <MapSection />
+        <RestaurantMapSection {...BarcelonetarestaurantData.map} />
       </section>
-   
     </div>
   );
 }
