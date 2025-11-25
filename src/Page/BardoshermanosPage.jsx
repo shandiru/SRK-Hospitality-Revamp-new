@@ -1,41 +1,51 @@
+
+
 import React from "react";
 
-// Sections from components/HomePage
-import AboutSection from "../components/BardoshermanosPage/AboutSection";
-import MenuFlipbook from "../components/BardoshermanosPage/MenuFlipbook";
-import Gallery from "../components/BardoshermanosPage/Gallery";
+// Common Restaurant Components
+import RestaurantWelcomeSection from "../components/common/restaurant/RestaurantWelcomeSection";
+import RestaurantAboutSection from "../components/common/restaurant/RestaurantAboutSection";
+import RestaurantMenuFlipbook from "../components/common/restaurant/RestaurantMenuFlipbook";
+import RestaurantGallerySection from "../components/common/restaurant/RestaurantGallerySection";
+import RestaurantContactSection from "../components/common/restaurant/RestaurantContactSection";
+import RestaurantMapSection from "../components/common/restaurant/RestaurantMapSection";
+import ContactSection from "../components/BardoshermanosPage/ContactSection"
+// Restaurant Data
+import { BardoshermanosData } from "../data/Bardoshermanos/restaurantData";
 
-import ContactSection from "../components/BardoshermanosPage/ContactSection";
-import MapSection from "../components/BardoshermanosPage/MapSection";
-import WelcomeSection from "../components/BardoshermanosPage/WelcomeSection";
 export default function BARDOS() {
   return (
     <div>
       {/* Hero */}
       <section>
-        <WelcomeSection />
-      </section>
-      <section >
-        <AboutSection/>
+        <RestaurantWelcomeSection {...BardoshermanosData.welcome} />
       </section>
 
+      {/* About */}
       <section>
-        <MenuFlipbook />
+        <RestaurantAboutSection {...BardoshermanosData.about} />
       </section>
+
+      {/* Menu */}
       <section>
-        <Gallery />
+        <RestaurantMenuFlipbook {...BardoshermanosData.menu} />
       </section>
-   
 
+      {/* Gallery */}
+      <section>
+        <RestaurantGallerySection {...BardoshermanosData.gallery} />
+      </section>
 
-      
-         <section>
+      {/* Contact */}
+      <section>
         <ContactSection />
+        {/* <RestaurantContactSection {...alnaseebData.contact} /> */}
       </section>
+
+      {/* Map */}
       <section>
-        <MapSection />
+        <RestaurantMapSection {...BardoshermanosData.map} />
       </section>
-   
     </div>
   );
 }
