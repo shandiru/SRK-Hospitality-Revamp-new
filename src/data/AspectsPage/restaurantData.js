@@ -1,7 +1,7 @@
 // Al Naseeb Restaurant Data
 import menuSections from './menu.json';
 
-export const alnaseebData = {
+export const AspectsData = {
   // Welcome Section Data
   welcome: {
     title: "ASPECTS",

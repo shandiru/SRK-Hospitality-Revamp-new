@@ -1,34 +1,49 @@
+
 import React from "react";
 
-// Sections from components/HomePage
-import AboutSection from "../components/lynn_leics/AboutSection";
-import MenuFlipbook from "../components/lynn_leics/MenuFlipbook";
-import Gallery from "../components/lynn_leics/Gallery";
-import ContactSection from "../components/lynn_leics/ContactSection";
-import MapSection from "../components/lynn_leics/MapSection";
-import WelcomeSection from "../components/lynn_leics/WelcomeSection";
+// Common Restaurant Components
+import RestaurantWelcomeSection from "../components/common/restaurant/RestaurantWelcomeSection";
+import RestaurantAboutSection from "../components/common/restaurant/RestaurantAboutSection";
+import RestaurantMenuFlipbook from "../components/common/restaurant/RestaurantMenuFlipbook";
+import RestaurantGallerySection from "../components/common/restaurant/RestaurantGallerySection";
+import RestaurantContactSection from "../components/common/restaurant/RestaurantContactSection";
+import RestaurantMapSection from "../components/common/restaurant/RestaurantMapSection";
+import ContactSection from "../components/lynn_leics/ContactSection"
+// Restaurant Data
+import { lynnleics } from "../data/lynn_leics/restaurantData";
 
 export default function Lynnleics() {
   return (
     <div>
       {/* Hero */}
       <section>
-        <WelcomeSection />
+        <RestaurantWelcomeSection {...lynnleics.welcome} />
       </section>
-      <section id="hero">
-        <AboutSection />
-      </section>
+
+      {/* About */}
       <section>
-        <MenuFlipbook />
+        <RestaurantAboutSection {...lynnleics.about} />
       </section>
+
+      {/* Menu */}
       <section>
-        <Gallery />
+        <RestaurantMenuFlipbook {...lynnleics.menu} />
       </section>
+
+      {/* Gallery */}
+      <section>
+        <RestaurantGallerySection {...lynnleics.gallery} />
+      </section>
+
+      {/* Contact */}
       <section>
         <ContactSection />
+        {/* <RestaurantContactSection {...alnaseebData.contact} /> */}
       </section>
+
+      {/* Map */}
       <section>
-        <MapSection />
+        <RestaurantMapSection {...lynnleics.map} />
       </section>
     </div>
   );

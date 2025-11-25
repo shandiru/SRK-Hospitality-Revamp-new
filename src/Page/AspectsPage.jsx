@@ -11,29 +11,29 @@ import RestaurantContactSection from "../components/common/restaurant/Restaurant
 import RestaurantMapSection from "../components/common/restaurant/RestaurantMapSection";
 import ContactSection from "../components/AspectsPage/ContactSection"
 // Restaurant Data
-import { alnaseebData } from "../data/AspectsPage/restaurantData";
+import { AspectsData } from "../data/AspectsPage/restaurantData";
 
 export default function Aspects() {
   return (
     <div>
       {/* Hero */}
       <section>
-        <RestaurantWelcomeSection {...alnaseebData.welcome} />
+        <RestaurantWelcomeSection {...AspectsData.welcome} />
       </section>
 
       {/* About */}
       <section>
-        <RestaurantAboutSection {...alnaseebData.about} />
+        <RestaurantAboutSection {...AspectsData.about} />
       </section>
 
       {/* Menu */}
       <section>
-        <RestaurantMenuFlipbook {...alnaseebData.menu} />
+        <RestaurantMenuFlipbook {...AspectsData.menu} />
       </section>
 
       {/* Gallery */}
       <section>
-        <RestaurantGallerySection {...alnaseebData.gallery} />
+        <RestaurantGallerySection {...AspectsData.gallery} />
       </section>
 
       {/* Contact */}
@@ -44,7 +44,7 @@ export default function Aspects() {
 
       {/* Map */}
       <section>
-        <RestaurantMapSection {...alnaseebData.map} />
+        <RestaurantMapSection {...AspectsData.map} />
       </section>
     </div>
   );
