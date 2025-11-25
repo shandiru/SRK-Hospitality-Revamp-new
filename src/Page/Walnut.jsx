@@ -1,34 +1,50 @@
+
+
 import React from "react";
 
-// Sections from components/HomePage
-import AboutSection from "../components/Walnut/AboutSection";
-import MenuFlipbook from "../components/Walnut/MenuFlipbook";
-import Gallery from "../components/Walnut/Gallery";
-import ContactSection from "../components/Walnut/ContactSection";
-import MapSection from "../components/Walnut/MapSection";
-import WelcomeSection from "../components/Walnut/WelcomeSection";
+// Common Restaurant Components
+import RestaurantWelcomeSection from "../components/common/restaurant/RestaurantWelcomeSection";
+import RestaurantAboutSection from "../components/common/restaurant/RestaurantAboutSection";
+import RestaurantMenuFlipbook from "../components/common/restaurant/RestaurantMenuFlipbook";
+import RestaurantGallerySection from "../components/common/restaurant/RestaurantGallerySection";
+import RestaurantContactSection from "../components/common/restaurant/RestaurantContactSection";
+import RestaurantMapSection from "../components/common/restaurant/RestaurantMapSection";
+import ContactSection from "../components/Walnut/ContactSection"
+// Restaurant Data
+import { WalnutData } from "../data/Walnut/restaurantData";
 
 export default function Walnut() {
   return (
     <div>
       {/* Hero */}
       <section>
-        <WelcomeSection />
+        <RestaurantWelcomeSection {...WalnutData.welcome} />
       </section>
-      <section id="hero">
-        <AboutSection />
-      </section>
+
+      {/* About */}
       <section>
-        <MenuFlipbook />
+        <RestaurantAboutSection {...WalnutData.about} />
       </section>
+
+      {/* Menu */}
       <section>
-        <Gallery />
+        <RestaurantMenuFlipbook {...WalnutData.menu} />
       </section>
+
+      {/* Gallery */}
+      <section>
+        <RestaurantGallerySection {...WalnutData.gallery} />
+      </section>
+
+      {/* Contact */}
       <section>
         <ContactSection />
+        {/* <RestaurantContactSection {...alnaseebData.contact} /> */}
       </section>
+
+      {/* Map */}
       <section>
-        <MapSection />
+        <RestaurantMapSection {...WalnutData.map} />
       </section>
     </div>
   );
