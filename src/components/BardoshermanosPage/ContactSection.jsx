@@ -1,0 +1,275 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+import { AiOutlineGlobal } from 'react-icons/ai';
+import {
+  FiMapPin,
+  FiPhone,
+  FiSend,
+  FiClock,
+  FiFacebook,
+  FiInstagram
+} from 'react-icons/fi';
+
+const BRAND_GOLD = '#E1B43B';
+
+export default function ContactSection() {
+  const [isDark, setIsDark] = useState(false);
+
+  // ✅ Detect dark/light mode
+  useEffect(() => {
+    const root = document.documentElement;
+    setIsDark(root.classList.contains('dark'));
+
+    const observer = new MutationObserver(() => {
+      setIsDark(root.classList.contains('dark'));
+    });
+    observer.observe(root, { attributes: true, attributeFilter: ['class'] });
+
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <section
+      className={`transition-colors duration-700 py-20 px-4 ${isDark ? 'bg-black text-[#E9ECEC]' : 'bg-white text-[#1C1C1C]'}`
+      }
+    >
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+        {/* Left Column */}
+        <div>
+          <h2 className="text-3xl font-extrabold mb-6" style={{ color: BRAND_GOLD }}>
+            Contact Us
+          </h2>
+
+          <div className="space-y-6">
+            {/* Opening Hours */}
+            <div className="flex items-start gap-4">
+              <div
+                className="p-3 rounded-full"
+                style={{
+                  backgroundColor: isDark ? '#1E1E1E' : '#FFF5E0',
+                  color: BRAND_GOLD,
+                }}
+              >
+                <FiClock size={20} />
+              </div>
+              <div>
+                <h4 className="font-bold">Opening Hours</h4>
+                <p className={`${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                  <span style={{ color: BRAND_GOLD, fontWeight: 600 }}>Latin Tapas</span>
+                  <br />
+                  Mon-Thu: 5:00 PM – 9:00 PM
+                  <br />
+                  Fri-Sat: 5:00 PM – 6:30 PM
+                  <br />
+                  Sun: 5:00 PM – 9:00 PM
+                </p>
+                <p className={`mt-3 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                  <span style={{ color: BRAND_GOLD, fontWeight: 600 }}>Breakfast & Brunch</span>
+                  <br />
+                  Sat-Sun: 9:00 AM – 3:00 PM
+                </p>
+              </div>
+            </div>
+
+            {/* Address (Google Maps) */}
+            <a
+              href="https://maps.app.goo.gl/YWMNGsmVDer2oAVQ8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4"
+            >
+              <div
+                className="p-3 rounded-full flex items-center justify-center"
+                style={{
+                  backgroundColor: isDark ? '#1E1E1E' : '#FFF5E0',
+                  color: BRAND_GOLD,
+                }}
+              >
+                <FiMapPin size={20} />
+              </div>
+              <div>
+                <h4 className="font-bold">Visit Us</h4>
+                <p className={`${isDark ? 'text-gray-300' : 'text-gray-600'} hover:text-[#E1B43B]`}>
+                  52 Queens Road, Clarendon Park,
+                  <br />
+                  Leicester, LE2 1TU
+                </p>
+              </div>
+            </a>
+
+            {/* Phone */}
+            <div className="flex items-start gap-4">
+              <div
+                className="p-3 rounded-full"
+                style={{
+                  backgroundColor: isDark ? '#1E1E1E' : '#FFF5E0',
+                  color: BRAND_GOLD,
+                }}
+              >
+                <FiPhone size={20} />
+              </div>
+              <div>
+                <h4 className="font-bold">Call Us</h4>
+                <p>
+                  <a href="tel:01162708404" className="hover:text-[#E1B43B]" >
+                    0116 270 8404
+                  </a>
+                </p>
+                <p>
+                  <a href="tel:+447405317594" className="hover:text-[#E1B43B]" >
+                    +44 7405 317594
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            {/* Email */}
+            <div className="flex items-start gap-4">
+              <div
+                className="p-3 rounded-full"
+                style={{
+                  backgroundColor: isDark ? '#1E1E1E' : '#FFF5E0',
+                  color: BRAND_GOLD,
+                }}
+              >
+                <FiSend size={20} />
+              </div>
+              <div>
+                <h4 className="font-bold">Mail Us</h4>
+                <a
+                  href="mailto:info@bardoshermanos.co.uk"
+                  className="font-medium hover:text-[#E1B43B]"
+                >
+                  info@bardoshermanos.co.uk
+                </a>
+              </div>
+            </div>
+
+            {/* Website */}
+            <a
+              href="https://bardoshermanos.co.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-4 group"
+            >
+              <div
+                className="p-3 rounded-full transition-all duration-300 group-hover:scale-110"
+                style={{
+                  backgroundColor: isDark ? '#1E1E1E' : '#FFF5E0',
+                  color: BRAND_GOLD,
+                }}
+              >
+                <AiOutlineGlobal size={20} />
+              </div>
+              <div>
+                <h4 className="font-bold">Website</h4>
+                <p className="font-medium group-hover:text-[#E1B43B] transition-colors">
+                  bardoshermanos.co.uk
+                </p>
+              </div>
+            </a>
+
+            {/* Social Media */}
+            <div className="flex gap-4 pt-4">
+              <a
+                href="https://www.instagram.com/bardoshermanos/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-10 h-10 rounded-full transition hover:scale-105"
+                style={{
+                  backgroundColor: isDark ? '#1E1E1E' : '#FFF5E0',
+                  color: BRAND_GOLD,
+                }}
+              >
+                <FiInstagram size={20} />
+              </a>
+              <a
+                href="https://web.facebook.com/BarDosHermanos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-10 h-10 rounded-full transition hover:scale-105"
+                style={{
+                  backgroundColor: isDark ? '#1E1E1E' : '#FFF5E0',
+                  color: BRAND_GOLD,
+                }}
+              >
+                <FiFacebook size={20} />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Right Column - Form */}
+        <div>
+          <h2 className="text-3xl font-extrabold mb-6" style={{ color: BRAND_GOLD }}>
+            Send Your Message Here
+          </h2>
+
+          <form className="space-y-6">
+            <div>
+              <label className="block mb-1 text-sm font-medium">Your Name</label>
+              <input
+                type="text"
+                placeholder="John Doe"
+                className={`w-full rounded-full border px-4 py-3 outline-none transition ${isDark
+                  ? 'bg-[#111] border-[#E1B43B]/40 focus:ring-2 focus:ring-[#E1B43B]/60 text-gray-100'
+                  : 'border-gray-300 focus:ring-2 focus:ring-[#E1B43B]/60 text-gray-800'
+                  }`}
+              />
+            </div>
+
+            <div>
+              <label className="block mb-1 text-sm font-medium">Phone</label>
+              <input
+                type="text"
+                placeholder="+44 123 456 7890"
+                className={`w-full rounded-full border px-4 py-3 outline-none transition ${isDark
+                  ? 'bg-[#111] border-[#E1B43B]/40 focus:ring-2 focus:ring-[#E1B43B]/60 text-gray-100'
+                  : 'border-gray-300 focus:ring-2 focus:ring-[#E1B43B]/60 text-gray-800'
+                  }`}
+              />
+            </div>
+
+            <div>
+              <label className="block mb-1 text-sm font-medium">Your Email</label>
+              <input
+                type="email"
+                placeholder="email@example.com"
+                className={`w-full rounded-full border px-4 py-3 outline-none transition ${isDark
+                  ? 'bg-[#111] border-[#E1B43B]/40 focus:ring-2 focus:ring-[#E1B43B]/60 text-gray-100'
+                  : 'border-gray-300 focus:ring-2 focus:ring-[#E1B43B]/60 text-gray-800'
+                  }`}
+              />
+            </div>
+
+            <div>
+              <label className="block mb-1 text-sm font-medium">Your Message (optional)</label>
+              <textarea
+                rows="4"
+                placeholder="Write something..."
+                className={`w-full rounded-2xl border px-4 py-3 outline-none resize-none transition ${isDark
+                  ? 'bg-[#111] border-[#E1B43B]/40 focus:ring-2 focus:ring-[#E1B43B]/60 text-gray-100'
+                  : 'border-gray-300 focus:ring-2 focus:ring-[#E1B43B]/60 text-gray-800'
+                  }`}
+              />
+            </div>
+
+            <div>
+              <button
+                type="submit"
+                className="font-semibold px-6 py-2 rounded-full transition duration-300 hover:scale-105"
+                style={{
+                  backgroundColor: BRAND_GOLD,
+                  color: isDark ? '#000' : '#fff',
+                }}
+              >
+                SUBMIT
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+}
