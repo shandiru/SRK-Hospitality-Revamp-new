@@ -1,36 +1,51 @@
+
 import React from "react";
 
-// Sections from components/HomePage
-import AboutSection from "../components/FusicPage/AboutSection";
-import MenuFlipbook from "../components/FusicPage/MenuFlipbook";
-import Gallery from "../components/FusicPage/Gallery";
-
-import ContactSection from "../components/FusicPage/ContactSection";
-import MapSection from "../components/FusicPage/MapSection";
-import WelcomeSection from "../components/FusicPage/WelcomeSection";
+// Common Restaurant Components
+import RestaurantWelcomeSection from "../components/common/restaurant/RestaurantWelcomeSection";
+import RestaurantAboutSection from "../components/common/restaurant/RestaurantAboutSection";
+import RestaurantMenuFlipbook from "../components/common/restaurant/RestaurantMenuFlipbook";
+import RestaurantGallerySection from "../components/common/restaurant/RestaurantGallerySection";
+import RestaurantContactSection from "../components/common/restaurant/RestaurantContactSection";
+import RestaurantMapSection from "../components/common/restaurant/RestaurantMapSection";
+import ContactSection from "../components/FusicPage/ContactSection"
+// Restaurant Data
+import { FusicData } from "../data/FusicPage/restaurantData";
+import WelcomeSection from "../components/FusicPage/WelcomeSection"
 export default function Fusic() {
   return (
     <div>
       {/* Hero */}
       <section>
+        {/* <RestaurantWelcomeSection {...FusicData.welcome} /> */}
         <WelcomeSection />
       </section>
-      <section >
-        <AboutSection />
-      </section>
+
+      {/* About */}
       <section>
-        <MenuFlipbook />
-      </section>
-      <section>
-        <Gallery />
-      </section>
-      <section>
-        <ContactSection />
-      </section>
-      <section>
-        <MapSection />
+        <RestaurantAboutSection {...FusicData.about} />
       </section>
 
+      {/* Menu */}
+      <section>
+        <RestaurantMenuFlipbook {...FusicData.menu} />
+      </section>
+
+      {/* Gallery */}
+      <section>
+        <RestaurantGallerySection {...FusicData.gallery} />
+      </section>
+
+      {/* Contact */}
+      <section>
+        <ContactSection />
+        {/* <RestaurantContactSection {...alnaseebData.contact} /> */}
+      </section>
+
+      {/* Map */}
+      <section>
+        <RestaurantMapSection {...FusicData.map} />
+      </section>
     </div>
   );
 }

@@ -1,0 +1,193 @@
+[{
+  "id": "starters_menu",
+  "title": "Starters",
+  "items": [
+    { "name": "Veg Samosa (3)", "price": "£4.75", "description": "" },
+    { "name": "Aloo Tiki Express (4)", "price": "£6.25", "description": "" },
+    { "name": "Crispy Bhajiya", "price": "£6.50", "description": "" },
+    { "name": "Jaipuri Karari Bhindi", "price": "£6.35", "description": "" },
+    { "name": "Mogo Ke Shollay (Fried / Jeera / Masala)", "price": "£6.95", "description": "" },
+    { "name": "Paneer Tikka Shashlik", "price": "£8.95", "description": "" },
+    { "name": "Crispy Corn", "price": "£5.25", "description": "" },
+    { "name": "Veg Kebabs", "price": "£6.95", "description": "" },
+    { "name": "Shanghai Aubergine", "price": "£7.50", "description": "" },
+    { "name": "Veg Sizzler", "price": "£10.95", "description": "" },
+    { "name": "Tandoori King Prawns", "price": "£13.95", "description": "" },
+    { "name": "Masala Fish", "price": "£11.95", "description": "" },
+    { "name": "Fish Amritsari", "price": "£8.95", "description": "" },
+    { "name": "Tandoori Chicken", "price": "£9.95", "description": "" },
+    { "name": "Carmos Chicken", "price": "£10.95", "description": "" },
+    { "name": "Chicken Tikka (Regular / Hariyali)", "price": "£8.95", "description": "" },
+    { "name": "Chicken Lolly's", "price": "£7.50", "description": "" },
+    { "name": "Adraki Lamb Chops", "price": "£13.95", "description": "" },
+    { "name": "Lamb Seekh Kabab", "price": "£9.25", "description": "" },
+    { "name": "Chicken Wings", "price": "£7.50", "description": "" },
+    { "name": "Hakka Chicken", "price": "£11.95", "description": "" },
+    { "name": "Tikka & Kebab Sizzler", "price": "£13.95", "description": "" },
+    { "name": "Mix Grill", "price": "£16.95", "description": "Chicken wings, chicken tikka, sheesh kabab, tandoori chicken" },
+    { "name": "Fusic Maharani", "price": "£28.95", "description": "Chicken hariyali tikka, chicken tikka, tandoori chicken, lamb chops, sheesh kabab, tandoori wings & king prawns" }
+  ]
+},
+
+  {
+    "id": "indo_chinese",
+    "title": "Indo-Chinese",
+    "items": [
+      { "name": "Chilli Paneer Delight", "price": "£8.95", "description": "" },
+      { "name": "Vegetable Manchurian (Dry)", "price": "£8.50", "description": "" },
+      { "name": "Chilli Fish", "price": "£8.50", "description": "" },
+      { "name": "Chilli Garlic Mushrooms", "price": "£7.25", "description": "" },
+      { "name": "Salt & Pepper Fish", "price": "£8.50", "description": "" },
+      { "name": "Chilli Chicken", "price": "£8.50", "description": "" },
+      { "name": "Chinese Wings", "price": "£7.50", "description": "" },
+      { "name": "Chicken Lollypop", "price": "£8.95", "description": "" }
+    ]
+  },
+  {
+    "id": "vegetarian_mains",
+    "title": "Vegetarian Mains",
+    "items": [
+      { "name": "Methi Corn Mushroom", "price": "£7.95", "description": "" },
+      { "name": "Bengan Ki Bartha", "price": "£6.95", "description": "" },
+      { "name": "Bhindi Masala", "price": "£6.95", "description": "" },
+      { "name": "Bombay Aloo", "price": "£5.95", "description": "" },
+      { "name": "Paneer Butter Masala", "price": "£7.50", "description": "" },
+      { "name": "Paneer Tikka Masala", "price": "£7.95", "description": "" },
+      { "name": "Kadai Paneer / Paneer Palak", "price": "£7.50", "description": "" },
+      { "name": "Paneer Shashlick Makhani", "price": "£8.50", "description": "" },
+      { "name": "Vegetable Jal Frazie", "price": "£6.95", "description": "" },
+      { "name": "Punjabi Chole", "price": "£5.95", "description": "" },
+      { "name": "Dal Tadka", "price": "£6.50", "description": "" },
+      { "name": "Vegetable Manchurian (Gravy)", "price": "£7.50", "description": "" }
+    ]
+  },
+  {
+    "id": "chicken_mains",
+    "title": "Chicken Mains",
+    "items": [
+      { "name": "Butter Chicken", "price": "£8.95", "description": "" },
+      { "name": "Chicken Tikka Masala", "price": "£8.25", "description": "" },
+      { "name": "Chilli Garlic Chicken", "price": "£8.95", "description": "" },
+      { "name": "Chicken Methi / Palak", "price": "£8.95", "description": "" },
+      { "name": "Egg Methi Curry", "price": "£6.95", "description": "" },
+      { "name": "Egg Keema Curry", "price": "£7.95", "description": "" }
+    ]
+  }
+,
+
+  {
+    "id": "lamb_mains",
+    "title": "Lamb Mains",
+    "items": [
+      { "name": "Lamb Rogan Josh", "price": "£9.95", "description": "" },
+      { "name": "Hariyali Gosht", "price": "£9.95", "description": "" },
+      { "name": "Bhuna Lamb", "price": "£9.95", "description": "" },
+      { "name": "Daal Gosht", "price": "£9.95", "description": "" },
+      { "name": "Lamb Chops Adraki Curry", "price": "£14.50", "description": "" },
+      { "name": "Lamb Keema Tawa", "price": "£10.95", "description": "" }
+    ]
+  },
+  {
+    "id": "sea_food_mains",
+    "title": "Sea Food Mains",
+    "items": [
+      { "name": "Goan Prawn Curry", "price": "£11.95", "description": "" },
+      { "name": "Tawa Prawns", "price": "£10.95", "description": "" },
+      { "name": "Malabar Fish Curry", "price": "£10.95", "description": "" },
+      { "name": "Fish Tawa", "price": "£9.95", "description": "" }
+    ]
+  },
+  {
+    "id": "fusic_specials",
+    "title": "Fusic Specials",
+    "items": [
+      { 
+        "name": "Desi Special: Chicken on the Bone", 
+        "price": "£9.95", 
+        "description": "Authentic Indian suburbs dish of the chicken cooked with bone." 
+      },
+      { 
+        "name": "Desi Special: Lamb on the Bone", 
+        "price": "£10.95", 
+        "description": "Authentic Indian suburbs dish of the lamb cooked with bone." 
+      },
+      { 
+        "name": "Whole Roast Chicken", 
+        "price": "£22.95", 
+        "description": "Served with flavoured rice — Min 4 hours pre-order" 
+      },
+      { 
+        "name": "Whole Roast Lamb Leg", 
+        "price": "£48.95", 
+        "description": "Served with roasted vegetable — Min 24 hours pre-order (serves for up to 4 ppl)" 
+      },
+      { 
+        "name": "Lamb Paya", 
+        "price": "£13.95", 
+        "description": "South Asian celebratory delicacy prepared of trotters with chosen spices" 
+      },
+      { 
+        "name": "Lamb Shank", 
+        "price": "£18.95", 
+        "description": "Shin of the lamb with bone slowly cooked with Indian spices" 
+      }
+    ]
+  }
+,
+
+  {
+    "id": "rice_and_noodles",
+    "title": "Rice and Noodles",
+    "items": [
+      { "name": "Plain Basmati Rice", "price": "£2.95", "description": "" },
+      { "name": "Pulav Rice", "price": "£3.50", "description": "" },
+      { "name": "Jeera Peas", "price": "£3.95", "description": "" },
+      { "name": "Mushroom Pulao", "price": "£4.50", "description": "" },
+      { "name": "Veg Fried Rice", "price": "£4.95", "description": "" },
+      { "name": "Egg Fried Rice", "price": "£5.95", "description": "" },
+      { "name": "Chicken Fried Rice", "price": "£6.95", "description": "" },
+      { "name": "Veg Haka Noodles", "price": "£6.50", "description": "" },
+      { "name": "Egg Haka Noodles", "price": "£6.50", "description": "" },
+      { "name": "Chicken Haka Noodles", "price": "£6.95", "description": "" }
+    ]
+  },
+  {
+    "id": "dum_biryani",
+    "title": "Dum Biryani",
+    "items": [
+      { "name": "Vegetable Dum Biryani", "price": "£7.50", "description": "" },
+      { "name": "Dum Chicken Biryani Boneless", "price": "£9.50", "description": "" },
+      { "name": "Dum Chicken Biryani on the Bone Special", "price": "£10.50", "description": "" },
+      { "name": "Dum Lamb Biryani Boneless", "price": "£11.50", "description": "" },
+      { "name": "Dum Lamb Biryani on the Bone Special", "price": "£12.50", "description": "" },
+      { "name": "Dum King Prawn Biryani", "price": "£13.95", "description": "" }
+    ]
+  },
+  {
+    "id": "indian_breads",
+    "title": "Indian Breads",
+    "items": [
+      { "name": "Plain Naan / Butter Naan", "price": "£2.65", "description": "" },
+      { "name": "Tandoori Butter Roti", "price": "£2.25", "description": "" },
+      { "name": "Naans (Garlic / Chilli Garlic / Cheese / Peshawari / Chilli Cheese)", "price": "£3.25", "description": "" },
+      { "name": "Paneer Kulcha", "price": "£3.25", "description": "" },
+      { "name": "Kheema Naan", "price": "£3.95", "description": "" }
+    ]
+  },
+  {
+    "id": "this_and_that",
+    "title": "This and That",
+    "items": [
+      { "name": "Madras Papad", "price": "£0.95", "description": "" },
+      { "name": "Spicy Papad", "price": "£0.95", "description": "" },
+      { "name": "Masala Papad", "price": "£1.10", "description": "" },
+      { "name": "French Fries", "price": "£2.50", "description": "" },
+      { "name": "Masala Fries", "price": "£3.95", "description": "" },
+      { "name": "Chinese Fries", "price": "£4.50", "description": "" },
+      { "name": "Plain Yoghurt", "price": "£2.50", "description": "" },
+      { "name": "Cucumber Raita", "price": "£3.50", "description": "" },
+      { "name": "Green Salad", "price": "£3.50", "description": "" }
+    ]
+  }
+
+]

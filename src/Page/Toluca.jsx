@@ -1,35 +1,50 @@
+
 import React from "react";
 
-// Sections from components/HomePage
-import AboutSection from "../components/TolucaPage/AboutSection";
-import MenuFlipbook from "../components/TolucaPage/MenuFlipbook";
-import Gallery from "../components/TolucaPage/Gallery";
-import ContactSection from "../components/TolucaPage/ContactSection";
-import MapSection from "../components/TolucaPage/MapSection";
-import WelcomeSection from "../components/TolucaPage/WelcomeSection";
+// Common Restaurant Components
+import RestaurantWelcomeSection from "../components/common/restaurant/RestaurantWelcomeSection";
+import RestaurantAboutSection from "../components/common/restaurant/RestaurantAboutSection";
+import RestaurantMenuFlipbook from "../components/common/restaurant/RestaurantMenuFlipbook";
+import RestaurantGallerySection from "../components/common/restaurant/RestaurantGallerySection";
+import RestaurantContactSection from "../components/common/restaurant/RestaurantContactSection";
+import RestaurantMapSection from "../components/common/restaurant/RestaurantMapSection";
+import ContactSection from "../components/TolucaPage/ContactSection"
+// Restaurant Data
+import { TolucaData } from "../data/TolucaPage/restaurantData";
 
 export default function Toluca() {
-    return (
-        <div>
-            {/* Hero */}
-            <section>
-                <WelcomeSection />
-            </section>
-            <section id="hero">
-                <AboutSection />
-            </section>
-            <section>
-                <MenuFlipbook />
-            </section>
-            <section>
-                <Gallery />
-            </section>
-            <section>
-                <ContactSection />
-            </section>
-            <section>
-                <MapSection />
-            </section>
-        </div>
-    );
+  return (
+    <div>
+      {/* Hero */}
+      <section>
+        <RestaurantWelcomeSection {...TolucaData.welcome} />
+      </section>
+
+      {/* About */}
+      <section>
+        <RestaurantAboutSection {...TolucaData.about} />
+      </section>
+
+      {/* Menu */}
+      <section>
+        <RestaurantMenuFlipbook {...TolucaData.menu} />
+      </section>
+
+      {/* Gallery */}
+      <section>
+        <RestaurantGallerySection {...TolucaData.gallery} />
+      </section>
+
+      {/* Contact */}
+      <section>
+        <ContactSection />
+        {/* <RestaurantContactSection {...alnaseebData.contact} /> */}
+      </section>
+
+      {/* Map */}
+      <section>
+        <RestaurantMapSection {...TolucaData.map} />
+      </section>
+    </div>
+  );
 }
