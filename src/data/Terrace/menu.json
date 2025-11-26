@@ -1,0 +1,1049 @@
+[
+  {
+    "id": "soups",
+    "title": "Soups",
+    "subtitle": "",
+    "items": [
+      { "name": "Cream of Tomato Soup", "description": "", "price": "12.00" },
+      { "name": "Vegetable Manchow Soup", "description": "", "price": "12.00" },
+      { "name": "Veg Lemon Coriander Soup", "description": "", "price": "12.00" },
+      { "name": "Minestrone Veg Soup", "description": "", "price": "12.00" },
+      { "name": "Cream of Chicken Soup", "description": "", "price": "14.00" },
+      { "name": "Tom Kha Kai Soup — Seafood", "description": "", "price": "24.00" },
+      { "name": "Chicken Hot & Sour Soup", "description": "", "price": "14.00" },
+      { "name": "Chicken Manchow Soup", "description": "", "price": "14.00" },
+      { "name": "Chicken Lung Fung Soup", "description": "", "price": "14.00" },
+      { "name": "Tom Yum Goong (Shrimps)", "description": "Thai-style spicy shrimp soup", "price": "24.00" }
+    ]
+  },
+  {
+    "id": "salads",
+    "title": "Salads",
+    "subtitle": "",
+    "items": [
+      { "name": "Fattoush Salad", "description": "Mixed greens, herbs, toasted Arabic bread", "price": "15.00" },
+      { "name": "Traditional Greek Salad", "description": "Feta, olives, cucumber, tomato, oregano", "price": "15.00" },
+      { "name": "Mexican Corn Salad", "description": "Spiced corn tossed in dressing", "price": "15.00" },
+      { "name": "Hummus", "description": "Classic chickpea dip served with Arabic bread", "price": "10.00" },
+      { "name": "Mutabbal", "description": "Arabic aubergine puree salad", "price": "15.00" },
+      { "name": "Hawaiian Chicken Salad", "description": "Grilled chicken with pineapple & coleslaw", "price": "18.00" }
+    ]
+  },
+  {
+    "id": "starters_indian",
+    "title": "Starters - Indian",
+    "subtitle": "",
+    "items": [
+      { "name": "Paneer Makhai Ka Sheekh Kebab", "description": "Cottage cheese kebab cooked to perfection", "price": "22.00" },
+        { "name": "Lobster Grilled", "description": "Char-grilled lobster served with butter", "price": "150.00" },
+      { "name": "Tiger Prawns Grilled", "description": "Char-grilled tiger prawns served with butter", "price": "150.00" },
+      { "name": "Shish Tawouk", "description": "Marinated chicken skewers served with fries", "price": "34.00" },
+      { "name": "Mediterranean Grilled Chicken", "description": "Grilled chicken breast with mushroom sauce", "price": "48.00" },
+      { "name": "Tikka Roast Chicken", "description": "Half roasted chicken with fries", "price": "48.00" },
+      { "name": "Terrace Spicy Fried Chicken", "description": "Crispy fried chicken served with spicy sauce", "price": "48.00" },
+      { "name": "Lamb Seekh Kebab", "description": "Minced lamb cooked on skewers", "price": "20.00" },
+      { "name": "Moussaka Beef", "description": "Layered baked beef with cheese", "price": "34.00" },
+      { "name": "Laham Bas Salona", "description": "Lamb stew with Arabic spices", "price": "38.00" },
+      { "name": "Chicken Mathbooshi", "description": "Chicken cooked in spiced long-grain rice", "price": "38.00" },
+      { "name": "Mutton Kabsa", "description": "Mutton with Arabic spiced rice", "price": "40.00" },
+      { "name": "Brown Arabic Rice", "description": "", "price": "10.00" },
+      { "name": "Steam Rice", "description": "", "price": "10.00" },
+      { "name": "Butter Garlic Naan", "description": "Clay oven bread with butter & garlic", "price": "10.00" },
+       { "name": "Subzi Sheekh Kebab", "description": "Minced vegetables & spices cooked to perfection", "price": "18.00" },
+      { "name": "Tandoori Achari Aloo", "description": "Spiced potatoes grilled with Indian herbs", "price": "18.00" },
+      { "name": "Mix Veg Kebab Platter", "description": "Variety of vegetarian kebabs", "price": "26.00" },
+      { "name": "Aatish Murg Tikka", "description": "Smoked chicken pieces marinated in spices", "price": "24.00" },
+      { "name": "Pahadi Murg Tikka", "description": "Mint-flavoured chicken marinated in Indian herbs", "price": "24.00" },
+      { "name": "Zaffrani Murg Tikka", "description": "Chicken marinated with saffron and cream", "price": "24.00" },
+      { "name": "Tandoori Prawns", "description": "Grilled prawns marinated with Indian spices", "price": "48.00" },
+      { "name": "Terrace Tandoori Murg (Full)", "description": "Whole roasted chicken with herbs", "price": "48.00" },
+      { "name": "Mutton Sheekh Kebab", "description": "Minced mutton kebabs grilled with spices", "price": "26.00" },
+      { "name": "Mutton Biryani Kebab", "description": "Chef’s special mutton biryani", "price": "48.00" },
+      { "name": "Non-Veg Kebab Platter", "description": "Assortment of chicken, lamb & prawns", "price": "60.00" }
+    ]
+  },
+  {
+    "id": "main_course_indian",
+    "title": "Main-Course - Indian",
+    "subtitle": "",
+    "items": [
+      { "name": "Prawns Pollichadu", "description": "Spicy Malabar specialty cooked in traditional spices", "price": "48.00" },
+      { "name": "Prawns Masala", "description": "Jumbo prawns cooked Punjabi style", "price": "48.00" },
+      { "name": "Goan Fish Curry", "description": "Boneless fish chunks in spicy Goan-style tangy curry", "price": "34.00" },
+      { "name": "Amritsari Fish", "description": "Deep-fried fish Amritsari style", "price": "34.00" },
+      { "name": "Chicken Tikka Masala", "description": "Tandoori chicken tikka cooked in spiced makhni gravy", "price": "32.00" },
+      { "name": "Kadhai Chicken", "description": "Chicken with capsicum and onion in rich tomato gravy", "price": "30.00" },
+      { "name": "Butter Chicken", "description": "Tandoori chicken cooked in creamy makhni sauce", "price": "32.00" },
+       { "name": "Butter Zatar Naan", "description": "Clay-baked naan with butter & zatar", "price": "12.00" },
+      { "name": "Labneh", "description": "", "price": "6.00" },
+        { "name": "Mutton Noorani Bhuna Masala", "description": "Tender mutton cooked with fresh ground spices & herbs.", "price": "42.00" },
+    { "name": "Mutton Rara Masala", "description": "Mutton mince cooked with lamb chunks in Punjabi-style spicy masala.", "price": "42.00" },
+    { "name": "Paneer Pulao", "description": "Basmati rice with marinated paneer & light spices.", "price": "28.00" },
+    { "name": "Paneer Tikka Masala", "description": "Tandoori paneer cooked in spiced makhani gravy.", "price": "28.00" },
+    { "name": "Kadhai Paneer Masala", "description": "Paneer cooked in capsicum, onion, tomato & Indian spices.", "price": "28.00" },
+    { "name": "Vegetable Jaipuri", "description": "Mixed vegetables cooked with capsicum, onion & tomato masala.", "price": "22.00" },
+    { "name": "Mixed Veg Korma", "description": "Mixed vegetables cooked in ginger & whole spice masala.", "price": "22.00" },
+    { "name": "Aloo Gobi Adraki", "description": "Tender cauliflower & potato cooked in ginger & whole spice masala.", "price": "18.00" },
+     { "name": "Prawns in Hot Garlic Sauce", "description": "Jumbo prawns cooked in a hot garlic sauce.", "price": "48.00" },
+    { "name": "Prawns in Chilly Sauce", "description": "Jumbo prawns tossed in spicy chili sauce.", "price": "48.00" },
+    { "name": "Fish in Schezwan Sauce", "description": "Boneless fish chunks cooked in Schezwan sauce.", "price": "34.00" },
+    { "name": "Fish in Ginger Garlic Sauce", "description": "Boneless fish chunks cooked with fresh ginger & garlic sauce.", "price": "34.00" },
+    { "name": "Fish in Chilly Oyster Sauce", "description": "Boneless fish chunks tossed in chili oyster sauce.", "price": "34.00" },
+    { "name": "Chicken in Manchurian Sauce", "description": "Stir-fried chicken in coriander-flavored Manchurian sauce.", "price": "28.00" },
+    { "name": "Kung Pao Chicken", "description": "Stir-fried chicken tossed with roasted peanuts, chili & soya sauce.", "price": "32.00" },
+    { "name": "Chicken in Bangkok Style", "description": "Chicken tossed with chili & basil Bangkok style.", "price": "30.00" },
+    { "name": "Chicken in Schezwan Sauce", "description": "Chicken cooked in spicy Schezwan sauce.", "price": "30.00" },
+    { "name": "Chicken in Mushroom & Chilly Oyster Sauce", "description": "Chicken cooked with mushrooms & chili oyster sauce.", "price": "32.00" },
+    { "name": "Crispy Chicken Chilly", "description": "Deep-fried chicken tossed in hot chili sauce.", "price": "32.00" },
+    { "name": "Deviled Dry Chicken", "description": "Spicy deep-fried chicken with garlic & chili flakes.", "price": "32.00" },
+    { "name": "Deviled Spicy Chicken", "description": "Boneless chicken cubes tossed in spicy garlic sauce.", "price": "32.00" },
+    { "name": "Crispy Lamb Honey Chilly", "description": "Crispy fried lamb cooked in honey chili sauce.", "price": "40.00" },
+    { "name": "Chilly Lamb Dry", "description": "Crispy fried lamb cooked with chili, ginger & garlic.", "price": "40.00" },
+    { "name": "Mutton Manchurian", "description": "Boneless mutton chunks cooked in coriander-flavored Manchurian sauce.", "price": "40.00" }
+    ]
+  },
+  {
+  "id": "starters_chinese",
+  "title": "Starters – Chinese",
+  "subtitle": "",
+  "items": [
+    {
+      "name": "Sesame Fried Fish",
+      "description": "Fresh boneless fish pieces marinated with Chinese spice & fried",
+      "price": "26.00"
+    },
+    {
+      "name": "Prawns Chilly Dry",
+      "description": "Jumbo prawns stir-fried in a spicy Chinese sauce",
+      "price": "48.00"
+    },
+    {
+      "name": "Chicken Lettuce Wrap",
+      "description": "Stir-fried chicken served in crispy wrapped lettuce",
+      "price": "24.00"
+    },
+    {
+      "name": "Chicken Bangkok Style",
+      "description": "Succulent chicken cooked to perfection in Bangkok style",
+      "price": "24.00"
+    },
+    {
+      "name": "Chicken Chilli Oyster",
+      "description": "Succulent chicken, green chilli & oyster sauce blended to perfection",
+      "price": "24.00"
+    },
+    {
+      "name": "Mongolian Chicken Dry",
+      "description": "Chicken chunks cooked to perfection in Mongolian style",
+      "price": "24.00"
+    },
+    {
+      "name": "Chicken Manchurian – Dry",
+      "description": "Stir-fried chicken chunks in coriander-flavored Manchurian sauce",
+      "price": "24.00"
+    },
+    {
+      "name": "Drums of Heaven",
+      "description": "Drumsticks cooked in a spicy hot garlic sauce",
+      "price": "18.00"
+    },
+    {
+      "name": "Butter Fried Prawns",
+      "description": "Jumbo prawns cooked in garlic butter",
+      "price": "38.00"
+    },
+    {
+      "name": "Fish in Hot Garlic – Dry",
+      "description": "Boneless fish chunks cooked in fresh garlic hot spice sauce",
+      "price": "26.00"
+    },
+    {
+      "name": "Golden Fried Prawns",
+      "description": "Jumbo prawns crumbed fried served with hot chili sauce",
+      "price": "38.00"
+    }
+  ]
+}
+,
+{
+  "id": "main_course_chinese",
+  "title": "Main-Course – Chinese",
+  "subtitle": "",
+  "items": [
+    {
+      "name": "Lobster in XO Sauce",
+      "description": "Lobster meat cooked in 5 spice & XO sauce served with steamed rice and crispy vegetables.",
+      "price": "150.00"
+    },
+    {
+      "name": "Lobster in Beijing Style",
+      "description": "Lobster meat cooked in Chef’s special hot spice & Schezwan sauce served with steamed rice and vegetables.",
+      "price": "150.00"
+    },
+    {
+      "name": "Chicken Hara Masala",
+      "description": "Boneless chicken pieces cooked in chef’s special green chili sauce.",
+      "price": "32.00"
+    },
+    {
+      "name": "Chicken Lababdar",
+      "description": "Boneless chicken pieces cooked in light spices with onion & tomato gravy.",
+      "price": "32.00"
+    },
+    {
+      "name": "Chicken Hyderabadi",
+      "description": "Boneless chicken pieces cooked in whole spices and green masala gravy.",
+      "price": "30.00"
+    },
+    {
+      "name": "Mutton Hyderabadi",
+      "description": "Tender mutton pieces cooked in whole spices and green masala gravy.",
+      "price": "42.00"
+    },
+    {
+      "name": "Mutton Roganjosh",
+      "description": "Tender mutton pieces cooked in a rich array of spices in rogan gravy — a Kashmiri delicacy.",
+      "price": "42.00"
+    },
+    {
+      "name": "Mutton Kadhai Masala",
+      "description": "Tender mutton chunks cooked in whole spices with capsicums and onions to perfection.",
+      "price": "42.00"
+    }
+  ]
+}
+,
+{
+  "id": "rice_preparation",
+  "title": "Rice Preparation",
+  "subtitle": "",
+  "items": [
+    {
+      "name": "Vegetable Pulao",
+      "description": "Long grain basmati rice with vegetables & whole garam masala, cooked to perfection.",
+      "price": "16.00"
+    },
+    {
+      "name": "Peas Pulao",
+      "description": "Long grain basmati rice cooked with green peas & Jeera.",
+      "price": "16.00"
+    },
+    {
+      "name": "Light Saffron Rice",
+      "description": "Long grain basmati rice scented with saffron and cooked to perfection.",
+      "price": "14.00"
+    },
+    {
+      "name": "Jeera Rice",
+      "description": "Long grain basmati rice tempered with Jeera and coriander, cooked to perfection.",
+      "price": "14.00"
+    },
+    {
+      "name": "Steam Rice",
+      "description": "Steamed basmati rice, cooked to perfection.",
+      "price": "12.00"
+    },
+    {
+      "name": "Mixed Veg Dum Biryani",
+      "description": "Long grain basmati rice with mixed vegetables & aromatic spices, slow-cooked & served hot.",
+      "price": "18.00"
+    },
+    {
+      "name": "Prawn Masala Biryani",
+      "description": "Long grain basmati rice with prawns in saffron-flavored biryani masala, slow-cooked & served hot.",
+      "price": "52.00"
+    },
+    {
+      "name": "Fish Dum Biryani",
+      "description": "Basmati rice with fish cooked in spiced masala, slow-cooked & served hot.",
+      "price": "36.00"
+    },
+    {
+      "name": "Murg Dum Biryani",
+      "description": "Boneless chicken cooked with special biryani spices & long grain basmati rice.",
+      "price": "34.00"
+    },
+    {
+      "name": "Mutton Dum Biryani",
+      "description": "Tender mutton marinated with biryani spices, layered with long grain rice & slow-cooked to perfection.",
+      "price": "38.00"
+    }
+  ]
+}
+,
+{
+  "id": "roti_preparation",
+  "title": "Roti Preparation",
+  "subtitle": "",
+  "items": [
+    {
+      "name": "Tandoori Roti",
+      "description": "Pure flour Indian oven-baked bread.",
+      "price": "4.00"
+    }
+  ]
+}
+,
+{
+  "id": "rice_noodles_preparation",
+  "title": "Rice & Noodles Preparation",
+  "subtitle": "",
+  "items": [
+    { "name": "Vegetable Fried Rice", "description": "", "price": "14.00" },
+    { "name": "Burnt Garlic Spinach Rice", "description": "", "price": "14.00" },
+    { "name": "Oriental Veg Rice", "description": "", "price": "14.00" },
+    { "name": "Schezwan Veg Fried Rice", "description": "", "price": "16.00" },
+    { "name": "Vegetable Hakka Noodles", "description": "", "price": "14.00" },
+    { "name": "Schezwan Veg Hakka Noodles", "description": "", "price": "16.00" },
+    { "name": "Burnt Garlic Noodles", "description": "", "price": "16.00" },
+    { "name": "Prawns Fried Rice", "description": "", "price": "42.00" },
+    { "name": "Chicken Fried Rice", "description": "", "price": "22.00" },
+    { "name": "Mixed Non-Veg Fried Rice", "description": "", "price": "28.00" },
+    { "name": "Triple Schezwan Chicken Fried Rice", "description": "", "price": "28.00" },
+    { "name": "Chicken Hakka Noodles", "description": "", "price": "22.00" },
+    { "name": "Spicy Hot Garlic Prawn Noodles", "description": "", "price": "42.00" },
+    { "name": "American Chopsuey", "description": "", "price": "34.00" },
+    { "name": "Chicken Chow Mein", "description": "", "price": "22.00" }
+  ]
+}
+,
+{
+  "id": "desserts",
+  "title": "Desserts",
+  "subtitle": "",
+  "items": [
+    { "name": "Gulab Jamun", "description": "", "price": "12.00" },
+    { "name": "Chocolate Brownies with Ice-Cream", "description": "", "price": "20.00" },
+    { "name": "Oumali (Regular / Sugar Free)", "description": "", "price": "17.00" },
+    { "name": "Fresh Fruit Vanilla Gateaux", "description": "", "price": "17.00" },
+    { "name": "Chocolate Excess Pastry", "description": "", "price": "17.00" },
+    { "name": "Chocolate & Caramel Pastry", "description": "", "price": "17.00" },
+    { "name": "Strawberry Cheese Cake", "description": "", "price": "17.00" },
+    { "name": "Tiramisu", "description": "", "price": "17.00" },
+    { "name": "Chocolate Pudding", "description": "", "price": "15.00" }
+  ]
+}
+,
+{
+  "id": "soft_beverages",
+  "title": "Soft Beverages",
+  "subtitle": "",
+  "items": [
+    { "name": "Soft Drinks – 330ml", "description": "", "price": "5.00" },
+    { "name": "Mineral Water – 500ml", "description": "", "price": "2.00" },
+    { "name": "Mineral Water – 1.5 Ltr", "description": "", "price": "5.00" }
+  ]
+}
+,
+{
+  "id": "side_dishes",
+  "title": "Side Dishes",
+  "subtitle": "",
+  "items": [
+    { "name": "Aloo Chana Chaat", "description": "", "price": "10.00" },
+    { "name": "Mint & Potato Raita", "description": "", "price": "10.00" },
+    { "name": "Mix Veg Raita", "description": "", "price": "12.00" },
+    { "name": "Pineapple Raita", "description": "", "price": "12.00" },
+    { "name": "Anar & Kela Raita", "description": "", "price": "12.00" },
+    { "name": "Plain Yoghurt", "description": "", "price": "6.00" }
+  ]
+}
+,
+{
+  "id": "main_course_international",
+  "title": "Main-Course – International",
+  "subtitle": "",
+  "items": [
+    {
+      "name": "Lobster Thermidore",
+      "description": "Lobster meat cooked in a rich cream & baked.",
+      "price": "150.00"
+    },
+    {
+      "name": "Baked Lobster in Mexican Salsa",
+      "description": "Lobster meat cooked in spicy Mexican salsa & cheese sauce.",
+      "price": "150.00"
+    },
+    {
+      "name": "Grilled Fish in Herbs Sauce",
+      "description": "Fish fillet grilled with herbs & olive oil.",
+      "price": "48.00"
+    },
+    {
+      "name": "Grilled Chicken in Peri Peri Sauce",
+      "description": "Chicken breast marinated with herbs & peri peri sauce.",
+      "price": "48.00"
+    },
+    {
+      "name": "Supreme Steak with Sauteed Veggies",
+      "description": "Grilled fillet steak glazed with peppery sauce, served with sautéed vegetables.",
+      "price": "50.00"
+    },
+    {
+      "name": "Grilled Lamb Chops",
+      "description": "Tender lamb chops marinated & layered with herbs, served with parsley rice.",
+      "price": "50.00"
+    },
+    {
+      "name": "Chicken Stroganoff",
+      "description": "Boneless chicken strips, mushroom cooked in creamy sauce, served with parsley butter rice.",
+      "price": "48.00"
+    },
+    {
+      "name": "Fish & Chips",
+      "description": "Deep fried fish served with tartar sauce & French fries.",
+      "price": "48.00"
+    },
+    {
+      "name": "Grilled Prawns with Parsley Rice",
+      "description": "Jumbo prawns marinated in herbs, grilled & served with butter lemon parsley rice.",
+      "price": "50.00"
+    },
+    {
+      "name": "Grilled Fish in Lemon Butter Sauce",
+      "description": "Boneless fillet marinated with herbs, grilled & served with butter lemon parsley rice.",
+      "price": "48.00"
+    }
+  ]
+}
+,
+{
+  "id": "starters_arabic",
+  "title": "Starters – Arabic",
+  "subtitle": "",
+  "items": [
+    {
+      "name": "Cold Mezzeh",
+      "description": "Hummus, Baba ghanoush, Labneh, Mutabbal.",
+      "price": "24.00"
+    },
+    {
+      "name": "Hot Mezzeh",
+      "description": "Kibbeh, Lamb kebab, Lamb chops & chicken sausage.",
+      "price": "62.00"
+    },
+    {
+      "name": "Prawns Grilled",
+      "description": "Lambch prawns cooked in fresh garlic sauce.",
+      "price": "48.00"
+    },
+    {
+      "name": "Chicken Shish Kebab",
+      "description": "Grilled chicken breast marinated in herbs & olive oil.",
+      "price": "38.00"
+    },
+    {
+      "name": "Kofta Meatball",
+      "description": "Chef’s special minced lamb mixed with halloumi cheese, seasoned & grilled, served with hummus dip.",
+      "price": "38.00"
+    },
+    {
+      "name": "Lamb Kebab",
+      "description": "Tender lamb minced with spices, char-grilled on skewers.",
+      "price": "38.00"
+    },
+    {
+      "name": "Ashtosh Feta Kebab",
+      "description": "Minced lamb with Arabic garlic yogurt dip.",
+      "price": "32.00"
+    },
+    {
+      "name": "Falafel",
+      "description": "Deep-fried chickpeas mixed with herbs & served with tahini dip.",
+      "price": "18.00"
+    },
+    {
+      "name": "Vegetarian Arabic Platter",
+      "description": "Hummus, Baba ghanoush, Falafel, Fattoush salad, Arabic bread.",
+      "price": "60.00"
+    },
+    {
+      "name": "Mutabbal",
+      "description": "Aubergine dip blended with sesame & lemon juice.",
+      "price": "18.00"
+    },
+    {
+      "name": "Hummus",
+      "description": "Mashed chickpeas blended with tahini & olive oil.",
+      "price": "18.00"
+    },
+    {
+      "name": "Hummus with Meat",
+      "description": "Classic hummus topped with sautéed minced meat.",
+      "price": "24.00"
+    },
+    {
+      "name": "Warak Enab",
+      "description": "Stuffed vine leaves with tomato, parsley, and fresh mint rice.",
+      "price": "24.00"
+    },
+    {
+      "name": "Grape Vine Leaves",
+      "description": "Vine leaves stuffed with rice & Arabic spices.",
+      "price": "36.00"
+    }
+  ]
+}
+,
+{
+  "id": "main_course_arabic",
+  "title": "Main Course – Arabic",
+  "subtitle": "",
+  "items": [
+    {
+      "name": "Mouton Grilled",
+      "description": "Tender mutton marinated with chef’s special spice & grilled to perfection, served with Arabic rice.",
+      "price": "48.00"
+    },
+    {
+      "name": "Mouton Fried",
+      "description": "Fried mutton pieces marinated with chef’s special spice, served with crispy potatoes & Arabic rice.",
+      "price": "48.00"
+    }
+  ]
+}
+,
+{
+  "id": "panda_menu_rice_noodles",
+  "title": "Rice & Noodles (Panda-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Steamed Rice", "description": "", "price": "8.00" },
+    { "name": "Vegetable Fried Rice", "description": "", "price": "18.00" },
+    { "name": "Egg Fried Rice", "description": "", "price": "20.00" },
+    { "name": "Chicken Fried Rice", "description": "", "price": "22.00" },
+    { "name": "Beef Fried Rice", "description": "", "price": "30.00" },
+    { "name": "Chicken Schezwan Fried Rice", "description": "", "price": "25.00" },
+    { "name": "Seafood Fried Rice", "description": "", "price": "38.00" },
+    { "name": "Vegetable Noodles", "description": "", "price": "22.00" },
+    { "name": "Vegetable Schezwan Noodles", "description": "", "price": "25.00" },
+    { "name": "Chicken Noodles", "description": "", "price": "22.00" }
+  ]
+}
+,
+{
+  "id": "panda_menu_combo_express",
+  "title": "Combo Express (Panda-Menu)",
+  "subtitle": "",
+  "items": [
+    {
+      "name": "Veg Schezwan Fried Rice Combo",
+      "description": "Veg Schezwan fried rice with salt n pepper veggies, hot garlic sauce, and veg roll.",
+      "price": "25.00"
+    },
+    {
+      "name": "Vegetable Singapore Noodle Combo",
+      "description": "Vegetable Singapore noodles with salt n pepper veggies, hot garlic sauce, and veg roll.",
+      "price": "30.00"
+    },
+    {
+      "name": "Seafood Rice Combo",
+      "description": "Seafood rice with fried wanton, prawn oyster sauce, fish sweet and sour, and kimchi.",
+      "price": "45.00"
+    },
+    {
+      "name": "Seafood Noodles Combo",
+      "description": "Seafood noodles with fried wanton, prawn oyster sauce, fish chili, and kimchi.",
+      "price": "42.00"
+    },
+    {
+      "name": "Beef Fried Rice Combo",
+      "description": "Beef fried rice with beef dragon roll, beef ginger garlic sauce, beef teriyaki chili, and kimchi.",
+      "price": "38.00"
+    }
+  ]
+}
+,
+{
+  "id": "panda_menu_appetizer_starters",
+  "title": "Appetizer and Starters (Panda-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Homemade Chicken Spring Roll", "description": "", "price": "18.00" },
+    { "name": "Homemade Vegetable Spring Roll", "description": "", "price": "15.00" },
+    { "name": "Prawn Crackers", "description": "", "price": "12.00" },
+    { "name": "Chilly Egg", "description": "", "price": "20.00" },
+    { "name": "Chicken Lollipop", "description": "", "price": "22.00" }
+  ]
+}
+,
+{
+  "id": "panda_menu_wantons_momos",
+  "title": "Wantons & Momos (Panda-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Vegetarian Wantons", "description": "", "price": "15.00" },
+    { "name": "Chicken Wantons", "description": "", "price": "18.00" },
+    { "name": "Beef Wantons", "description": "", "price": "22.00" },
+    { "name": "Seafood Wantons", "description": "", "price": "28.00" },
+    { "name": "Vegetarian Momos", "description": "", "price": "15.00" },
+    { "name": "Chicken Momos", "description": "", "price": "15.00" },
+    { "name": "Beef Momos", "description": "", "price": "22.00" },
+    { "name": "Seafood Momos", "description": "", "price": "28.00" }
+  ]
+}
+,
+{
+  "id": "panda_menu_dessert_beverage",
+  "title": "Dessert & Beverage (Panda-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Apple Pie", "description": "", "price": "18.00" },
+    { "name": "Macaroons", "description": "", "price": "18.00" },
+    { "name": "Fruit Salad", "description": "", "price": "22.00" },
+    { "name": "Chocolate Cake", "description": "", "price": "20.00" },
+    { "name": "Tiramisu", "description": "", "price": "20.00" },
+    { "name": "Fresh Fruit Juice", "description": "Orange, Watermelon, Pineapple, Cocktail", "price": "15.00" },
+    { "name": "Soft Drinks", "description": "", "price": "5.00" },
+    { "name": "Water (500ml)", "description": "", "price": "3.50" },
+    { "name": "Ice Tea", "description": "", "price": "8.00" },
+    { "name": "Red Bull", "description": "", "price": "15.00" }
+  ]
+}
+,
+{
+  "id": "panda_menu_soups",
+  "title": "Soups (Panda-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Sweet Corn Vegetable Soup", "description": "", "price": "12.00" },
+    { "name": "Vegetable Hot N Sour Soup", "description": "", "price": "12.00" },
+    { "name": "Chicken Hot N Sour Soup", "description": "", "price": "15.00" },
+    { "name": "Vegetable Manchow Soup", "description": "", "price": "12.00" },
+    { "name": "Chicken Manchow Soup", "description": "", "price": "18.00" },
+    { "name": "Seafood Manchow Soup", "description": "", "price": "28.00" },
+    { "name": "Vegetable Wanton Soup", "description": "", "price": "18.00" },
+    { "name": "Chicken Wanton Soup", "description": "", "price": "20.00" }
+  ]
+}
+,
+{
+  "id": "panda_menu_main_course_seafood",
+  "title": "Main Course – Seafood (Panda-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Ginger Prawns Oyster Sauce", "description": "", "price": "35.00" },
+    { "name": "Sweet and Sour Fish", "description": "", "price": "28.00" },
+    { "name": "Hot Garlic Prawns Oyster Sauce", "description": "", "price": "38.00" },
+    { "name": "Chilly Squids", "description": "", "price": "32.00" },
+    { "name": "Salt And Pepper Squids", "description": "", "price": "30.00" },
+    { "name": "Fish Thai Style", "description": "", "price": "30.00" },
+    { "name": "Thai Prawn Green Curry", "description": "", "price": "35.00" },
+    { "name": "Hong Style Ginger Lobster", "description": "", "price": "175.00" }
+  ]
+}
+,
+{
+  "id": "panda_menu_main_course_chicken_beef",
+  "title": "Main Course – Chicken & Beef (Panda-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Orange Chicken", "description": "", "price": "28.00" },
+    { "name": "Kung Pao Chicken", "description": "", "price": "28.00" },
+    { "name": "Schezwan Chicken", "description": "", "price": "25.00" },
+    { "name": "Cashew Chicken", "description": "", "price": "30.00" },
+    { "name": "Green Chilly Chicken", "description": "", "price": "30.00" },
+    { "name": "Chicken Manchurian", "description": "", "price": "25.00" },
+    { "name": "Ginger Chicken", "description": "", "price": "25.00" },
+    { "name": "Hot Garlic Chicken", "description": "", "price": "26.00" },
+    { "name": "Chicken Mushroom Broccoli", "description": "", "price": "28.00" },
+    { "name": "Chicken Bulgogi", "description": "", "price": "35.00" },
+    { "name": "Beef Bulgogi", "description": "", "price": "38.00" },
+    { "name": "Chili Beef", "description": "", "price": "35.00" },
+    { "name": "Broccoli Beef", "description": "", "price": "35.00" },
+    { "name": "Kung Pao Beef", "description": "", "price": "35.00" },
+    { "name": "Beef Hunan Style", "description": "", "price": "35.00" }
+  ]
+}
+,
+{
+  "id": "veg_corner_menu",
+  "title": "Veg Corner Menu",
+  "subtitle": "",
+  "items": [
+    { "name": "Roti", "description": "", "price": "3.00" },
+    { "name": "Naan", "description": "", "price": "3.00" },
+    { "name": "Tandoori Paratha", "description": "", "price": "6.00" },
+    { "name": "Chappathi", "description": "", "price": "1.50" },
+    { "name": "Kerala Poratta", "description": "", "price": "1.50" },
+    { "name": "Ghee Garlic Naan", "description": "", "price": "6.00" },
+    { "name": "Butter Naan", "description": "", "price": "5.00" },
+    { "name": "Garlic Naan", "description": "", "price": "5.00" },
+    { "name": "Kulcha", "description": "", "price": "4.00" },
+    { "name": "Stuffed Kulcha", "description": "", "price": "5.00" },
+    { "name": "Aloo Paratha", "description": "", "price": "5.00" },
+    { "name": "Pudina Paratha", "description": "", "price": "5.00" },
+    { "name": "Mix Bhaji", "description": "", "price": "3.00" },
+    { "name": "Veg. Samoosa", "description": "", "price": "2.50" },
+    { "name": "Onion Vada", "description": "", "price": "3.00" },
+    { "name": "Vada Pav", "description": "", "price": "6.00" },
+    { "name": "Chilly Bhaji", "description": "", "price": "3.00" },
+    { "name": "Samoosa Pav", "description": "", "price": "6.00" },
+    { "name": "Butter Masala Dosa", "description": "", "price": "12.00" },
+    { "name": "Ghee Roast Masala", "description": "", "price": "14.00" },
+    { "name": "Spicy Veg. Dosa", "description": "", "price": "12.00" },
+    { "name": "Cheese Masala", "description": "", "price": "14.00" },
+    { "name": "Rava Masala", "description": "", "price": "14.00" },
+    { "name": "Paneer Masala", "description": "", "price": "16.00" },
+    { "name": "Mushroom Masala Dosa", "description": "", "price": "16.00" },
+    { "name": "Palak Masala Dosa", "description": "", "price": "15.00" },
+    { "name": "Mysore Sada Dosa", "description": "", "price": "15.00" },
+    { "name": "Mysore Masala Dosa", "description": "", "price": "16.00" },
+    { "name": "Bombay Jini Dosa", "description": "", "price": "16.00" },
+    { "name": "Chocolate Dosa", "description": "", "price": "18.00" },
+    { "name": "Schezwan Dosa", "description": "", "price": "18.00" }
+  ]
+}
+,
+{
+  "id": "veg_corner_breakfast_soups_salads",
+  "title": "Breakfast Corner, Soups & Salads (Veg-Corner Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Idli with Sambar", "description": "", "price": "6.50" },
+    { "name": "Vada (2 Pcs)", "description": "", "price": "5.00" },
+    { "name": "Idli (2 Pcs) + (1 Pc) Vada Set", "description": "", "price": "8.00" },
+    { "name": "Sada Dosa Set", "description": "", "price": "6.50" },
+    { "name": "Mini Idli Set", "description": "", "price": "8.00" },
+    { "name": "Masala Roast", "description": "", "price": "6.50" },
+    { "name": "Ghee Roast", "description": "", "price": "7.50" },
+    { "name": "Onion Chilly Uthappam", "description": "", "price": "7.50" },
+    { "name": "Tomato Onion Uthappam", "description": "", "price": "7.50" },
+    { "name": "Cheese Uthappam", "description": "", "price": "9.00" },
+    { "name": "Vegetable Uthappam", "description": "", "price": "8.00" },
+    { "name": "Dahi Vada (2 Pcs)", "description": "", "price": "7.50" },
+    { "name": "Upma", "description": "", "price": "6.00" },
+    { "name": "Rasam Idli", "description": "", "price": "7.50" },
+    { "name": "Vada Sambar", "description": "", "price": "6.50" },
+    { "name": "Kesari Bath", "description": "", "price": "7.50" },
+    { "name": "Chapati Set", "description": "", "price": "7.00" },
+    { "name": "Channa Batura", "description": "", "price": "8.50" },
+    { "name": "Puri Bhaji", "description": "", "price": "7.00" },
+    { "name": "Cream of Tomato Soup", "description": "", "price": "12.00" },
+    { "name": "Hot & Sour Soup", "description": "", "price": "15.00" },
+    { "name": "Sweet Corn Veg. Soup", "description": "", "price": "12.00" },
+    { "name": "Mix Veg. Soup", "description": "", "price": "12.00" },
+    { "name": "Dal Shorba", "description": "", "price": "12.00" },
+    { "name": "Green Salad", "description": "", "price": "10.00" },
+    { "name": "Onion Salad", "description": "", "price": "5.00" },
+    { "name": "Chickpea Sundal Salad", "description": "", "price": "10.00" },
+    { "name": "Tomato Salad", "description": "", "price": "7.00" },
+    { "name": "Mix Veg. Raita", "description": "", "price": "7.00" },
+    { "name": "Spicy Mango Salad", "description": "", "price": "10.00" },
+    { "name": "Cucumber Raita", "description": "", "price": "5.00" }
+  ]
+}
+,
+{
+  "id": "veg_corner_beverages_sweets",
+  "title": "Beverages Corner & Sweet Corner (Veg-Corner Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Sweet / Salt Lassi", "description": "", "price": "8.00" },
+    { "name": "Mango Lassi", "description": "", "price": "12.00" },
+    { "name": "Kulukki Sarbath", "description": "", "price": "10.00" },
+    { "name": "Lemon Soda", "description": "", "price": "10.00" },
+    { "name": "Mojito", "description": "", "price": "10.00" },
+    { "name": "Ice Tea", "description": "", "price": "10.00" },
+    { "name": "Red Bull", "description": "", "price": "15.00" },
+    { "name": "Soft Drinks", "description": "", "price": "5.00" },
+    { "name": "Small Water", "description": "", "price": "3.00" },
+    { "name": "Fruit Juices", "description": "Orange / Mango / Watermelon / Pineapple / Cocktail", "price": "15.00" },
+    { "name": "Milkshakes", "description": "Chocolate / Avocado / Banana / Vanilla / Sharjah Shake", "price": "20.00" },
+    { "name": "Samovar Tea", "description": "", "price": "3.00" },
+    { "name": "Filter Coffee", "description": "", "price": "5.00" },
+    { "name": "Gulab Jamun", "description": "", "price": "12.00" },
+    { "name": "Carrot Halwa", "description": "", "price": "12.00" },
+    { "name": "Kerala Nei Payasam", "description": "", "price": "15.00" },
+    { "name": "Fruit Salad", "description": "", "price": "18.00" },
+    { "name": "Royal Falooda", "description": "", "price": "15.00" },
+    { "name": "Indian Sweets (Per Pc)", "description": "", "price": "3.00" },
+    { "name": "Choice of Ice Cream", "description": "Vanilla / Chocolate / Mango", "price": "12.00" }
+  ]
+}
+,{
+  "id": "veg_corner_starters_delight",
+  "title": "Starters & Delight Corner (Veg-Corner Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Tandoori Paneer Tikka", "description": "", "price": "20.00" },
+    { "name": "Gobi 65", "description": "", "price": "15.00" },
+    { "name": "Salt & Pepper Mushroom", "description": "", "price": "17.00" },
+    { "name": "Masala Pappad", "description": "", "price": "6.00" },
+    { "name": "Aloo Tikki", "description": "", "price": "12.00" },
+    { "name": "Crispy Fried Veg.", "description": "", "price": "12.00" },
+    { "name": "Tandoori Gobi", "description": "", "price": "12.00" },
+    { "name": "Tandoori Aloo", "description": "", "price": "12.00" },
+    { "name": "Hara Bhara Kabab", "description": "", "price": "12.00" },
+    { "name": "Veg. Lollipop", "description": "", "price": "18.00" },
+    { "name": "Chinese Chilly Idli", "description": "", "price": "10.00" },
+    { "name": "Chilly Paneer", "description": "", "price": "17.00" },
+    { "name": "Bombay Sandwich", "description": "", "price": "15.00" },
+    { "name": "Grilled Veg. Sandwich", "description": "", "price": "18.00" },
+    { "name": "Veg. Burger", "description": "", "price": "15.00" },
+    { "name": "Veg. and Cheese Burger", "description": "", "price": "18.00" },
+    { "name": "Veg. and Paneer Kathi Roll", "description": "", "price": "18.00" },
+    { "name": "Pav Bhaji", "description": "", "price": "18.00" }
+  ]
+}
+,
+{
+  "id": "veg_corner_thali_biriyani",
+  "title": "Thali & Rice & Biriyani Corner (Veg-Corner Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Lunch Thali", "description": "Chapatti, Rice, Sambar, Poriyal, Rasam, Koothu & Sweet", "price": "16.00" },
+    { "name": "Special Thali", "description": "Chapati or Puri, Rice, Pickle, Pappad, Sambar, Poriyal, Rasam, Kootu, Kadai Panner, Curd, Buttermilk & Sweet", "price": "20.00" },
+    { "name": "Plain Basmati Rice", "description": "", "price": "8.00" },
+    { "name": "Lemon Rice", "description": "", "price": "12.00" },
+    { "name": "Curd Rice", "description": "", "price": "12.00" },
+    { "name": "Veg. Biriyani", "description": "", "price": "18.00" },
+    { "name": "Spicy Andhra Biriyani", "description": "", "price": "18.00" },
+    { "name": "Kerala Veg. Biriyani", "description": "", "price": "18.00" },
+    { "name": "Paneer Tikka Biriyani", "description": "", "price": "22.00" },
+    { "name": "Veg. Pulao", "description": "", "price": "12.00" },
+    { "name": "Jeera Rice", "description": "", "price": "10.00" },
+    { "name": "Kashmiri Pulao", "description": "", "price": "15.00" },
+    { "name": "Veg Corner Special Biryani", "description": "", "price": "20.00" }
+  ]
+}
+,
+{
+  "id": "veg_corner_subji",
+  "title": "Subji Corner (Veg-Corner Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Aloo Mutter", "description": "", "price": "12.00" },
+    { "name": "Mix Veg.", "description": "", "price": "15.00" },
+    { "name": "Veg. Jalfrezi", "description": "", "price": "15.00" },
+    { "name": "Mushroom Paneer", "description": "", "price": "20.00" },
+    { "name": "Vegetable Kuruma", "description": "", "price": "18.00" },
+    { "name": "Shai Paneer", "description": "", "price": "18.00" },
+    { "name": "Dum Aloo Kashmiri", "description": "", "price": "18.00" },
+    { "name": "Baigan Bharta", "description": "", "price": "15.00" },
+    { "name": "Bhindi Masala", "description": "", "price": "15.00" },
+    { "name": "Mutter Paneer", "description": "", "price": "18.00" },
+    { "name": "Mushroom Tikka Masala", "description": "", "price": "18.00" },
+    { "name": "Channa Masala", "description": "", "price": "15.00" },
+    { "name": "Aloo Gobi", "description": "", "price": "15.00" },
+    { "name": "Gobi Masala", "description": "", "price": "15.00" },
+    { "name": "Paneer Mutter", "description": "", "price": "18.00" },
+    { "name": "Paneer Burji", "description": "", "price": "20.00" },
+    { "name": "Kadai Veg.", "description": "", "price": "16.00" },
+    { "name": "Kadai Mushroom", "description": "", "price": "16.00" },
+    { "name": "Kadai Paneer", "description": "", "price": "18.00" }
+  ]
+}
+,
+{
+  "id": "veg_corner_curries",
+  "title": "Curries Corner (Veg-Corner Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Paneer Pasanda", "description": "", "price": "18.00" },
+    { "name": "Dal Tadka", "description": "", "price": "12.00" },
+    { "name": "Maa Ki Dal", "description": "", "price": "15.00" },
+    { "name": "Dal Makhani", "description": "", "price": "15.00" },
+    { "name": "Rajma Masala", "description": "", "price": "15.00" },
+    { "name": "Kerala Mango Curry", "description": "", "price": "18.00" },
+    { "name": "Dal Palak", "description": "", "price": "15.00" },
+    { "name": "Paneer Tikka Masala", "description": "", "price": "18.00" },
+    { "name": "Palak Paneer", "description": "", "price": "18.00" },
+    { "name": "Chemma Paneer Curry", "description": "Veg Corner Special", "price": "20.00" }
+  ]
+}
+,{
+  "id": "salama_menu_pasta_arabic",
+  "title": "Pasta & Daily Arabic Food (Salama-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Panee Alfredo Ala Polo", "description": "مكرونة الفريدو", "price": "27.00" },
+    { "name": "Spaghetti Ala Bolognaise", "description": "سباغيتي بولونيز", "price": "32.00" },
+    { "name": "Spaghetti Ala Napolitano", "description": "سباغيتي نابوليتانو", "price": "22.00" },
+    { 
+      "name": "Daily Special Arabic Food", 
+      "description": "Chicken Machboos, Fish Siyadiya, Vermicelli Rice with Oriental Chicken, Maqluba with Chicken, Okra Mutton Saloona with Rice, Chicken Mandi. | الدجاج مجبوس، صيادية السمك، أرز بالشعرية مع دجاج شرقي، مقلوبة بالدجاج، ملوخية باللحم، دجاج مندي.", 
+      "price": "25.00" 
+    }
+  ]
+}
+,{
+  "id": "salama_menu_desserts",
+  "title": "Desserts (Salama-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Kunafa", "description": "كنافة", "price": "20.00" },
+    { "name": "Basbousa", "description": "بسبوسة", "price": "15.00" },
+    { "name": "Assorted Macrons", "description": "كريم كراميل", "price": "18.00" },
+    { "name": "Cheesecake", "description": "تشيز كيك", "price": "20.00" },
+    { "name": "Umm Ali", "description": "ام علي", "price": "18.00" },
+    { "name": "Chocolate Cake", "description": "كعكة الشوكولاتة", "price": "18.00" },
+    { "name": "Apple Pie", "description": "فطيرة تفاح", "price": "20.00" },
+    { "name": "Assorted Seasonal Fruit Platter", "description": "طبق فواكه موسمية متنوعة", "price": "22.00" }
+  ]
+}
+,
+{
+  "id": "salama_menu_starters",
+  "title": "Starters (Salama-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "French Fries", "description": "البطاطس المقلية", "price": "10.00" },
+    { "name": "Hummus With Meat", "description": "حمص باللحم", "price": "18.00" },
+    { "name": "Fatayer", "description": "حلقات البصل", "price": "18.00" },
+    { "name": "Cheese Fries", "description": "بطاطا مقلية بالجبنة", "price": "15.00" },
+    { "name": "Falafel Plate", "description": "صحن فلافل", "price": "10.00" },
+    { "name": "Fish Finger", "description": "اصابع السمك", "price": "25.00" },
+    { "name": "Foul Medames", "description": "فول مدمس", "price": "12.00" },
+    { "name": "Foul with Egg", "description": "فول بالبيض", "price": "15.00" }
+  ]
+}
+,
+{
+  "id": "salama_menu_wraps_sandwiches",
+  "title": "Wraps & Sandwiches (Salama-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Arayes", "description": "عرابس", "price": "22.00" },
+    { "name": "Kofta Lamb Wrap", "description": "سندويش كفتة لحم", "price": "25.00" },
+    { "name": "Chicken Shawarma Wrap", "description": "سندويش شاورما دجاج", "price": "7.00" },
+    { "name": "Chicken Shawarma Plate", "description": "صحن شاورما دجاج", "price": "20.00" },
+    { "name": "Falafel Sandwich", "description": "ساندويش فلافل", "price": "6.00" }
+  ]
+}
+,
+{
+  "id": "salama_menu_beverages",
+  "title": "Beverages (Salama-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Fruit Juices", "description": "Orange / Mango / Watermelon / Pineapple / Cocktails | عصائر الفاكهة", "price": "18.00" },
+    { "name": "Soft Drinks", "description": "المشروبات الغازية", "price": "5.00" },
+    { "name": "Red Bull", "description": "ريد بول", "price": "15.00" },
+    { "name": "Water Small", "description": "مياه صغيرة", "price": "3.00" },
+    { "name": "Special Sulaimani Tea", "description": "شاي سليماني خاص", "price": "3.00" },
+    { "name": "Green Tea", "description": "شاي أخضر", "price": "5.00" },
+    { "name": "Espresso Italiano", "description": "اسبريسو ايطاليانو", "price": "13.00" },
+    { "name": "Cappuccino", "description": "كابتشينو", "price": "20.00" },
+    { "name": "Milkshakes", "description": "Chocolate / Avocado / Vanilla / Dates & Banana | ميلك شيك", "price": "20.00" }
+  ]
+}
+,{
+  "id": "salama_menu_special_dishes",
+  "title": "Try Our Special Dishes (Salama-Menu)",
+  "subtitle": "48 hrs. order in advance required | للطلب قبل ٤٨ ساعة مقدمًا",
+  "items": [
+    { "name": "Full Lamb Ouzi", "description": "خروف كامل أوزي", "price": "1250.00" },
+    { "name": "Lamb Leg Ouzi", "description": "فخذ غنم أوزي", "price": "375.00" },
+    { "name": "Whole Hamour Fish Sayadieh", "description": "سمك هامور كامل صيادية", "price": "875.00" },
+    { "name": "Full Chicken Mandhi", "description": "دجاج كامل مندي", "price": "52.00" },
+    { "name": "Lamb Mansaf", "description": "منسف لحم", "price": "78.00" }
+  ]
+}
+,
+{
+  "id": "salama_menu_manakish_pizza",
+  "title": "Manakish & Pizza (Salama-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Zaatar", "description": "زعتر بالجبن", "price": "10.00" },
+    { "name": "Cheese", "description": "سجق بالجبن", "price": "15.00" },
+    { "name": "Pizza Margherita (M)", "description": "بيتزا مارغريتا", "price": "12.00" },
+    { "name": "Pizza Margherita (L)", "description": "بيتزا مارغريتا", "price": "20.00" },
+    { "name": "Chicken Pizza (M)", "description": "بيتزا الدجاج", "price": "15.00" },
+    { "name": "Chicken Pizza (L)", "description": "بيتزا الدجاج", "price": "24.00" },
+    { "name": "Seafood Pizza (M)", "description": "بيتزا المأكولات البحرية", "price": "18.00" },
+    { "name": "Seafood Pizza (L)", "description": "بيتزا المأكولات البحرية", "price": "32.00" }
+  ]
+}
+,
+{
+  "id": "salama_menu_salads_cold_starters",
+  "title": "Salads / Cold Starters (Salama-Menu)",
+  "subtitle": "",
+  "items": [
+    { "name": "Chicken Caesar Salad", "description": "سلطة سيزر بالدجاج", "price": "20.00" },
+    { "name": "Fattoush Salad", "description": "سلطة فتوش", "price": "12.00" },
+    { "name": "Tabbouleh", "description": "تبولة", "price": "15.00" },
+    { "name": "Moutable", "description": "سلطة متبل", "price": "12.00" },
+    { "name": "Hummus", "description": "الحمص", "price": "10.00" },
+    { "name": "Tuna Salad", "description": "سلطة التونة", "price": "20.00" },
+    { "name": "Coleslaw Salad", "description": "بابا غنوج", "price": "10.00" },
+    { "name": "Wark Inab (Stuffed Wine Leaf)", "description": "ورق عنب", "price": "15.00" },
+    { 
+      "name": "Arabic Mezza", 
+      "description": "Traditional Mezza choice of Hummus, Mutable, Tabbouleh, Samosa, Oriental Salad, Pickled Vegetables, Olives, Garlic Sauce, Accompanied with Arabic Bread | مقبلات تقليدية من اختيار من حمص، متبل، تبولة، سمبوسة، سلطة شرقية، خضار مخلل، الزيتون، صوص ثوم، مع الخبز العربي.", 
+      "price": "42.00" 
+    }
+  ]
+}
+,
+{
+  "id": "salama_menu_soups",
+  "title": "Soups (Salama-Menu)",
+  "subtitle": "",
+  "items": [
+    { 
+      "name": "Shorba Tadas", 
+      "description": "Traditional Arabic Lentil Soup with Cumin Flavor | شوربة عدس عربية تقليدية بنكهة الكمون", 
+      "price": "15.00" 
+    },
+    { 
+      "name": "Choice of Cream Soup", 
+      "description": "Chicken / Vegetable Soup | شوربة دجاج / خضار", 
+      "price": "18.00" 
+    }
+  ]
+}
+,
+{
+  "id": "salama_menu_main_course",
+  "title": "Main Course (Salama-Menu)",
+  "subtitle": "",
+  "items": [
+    { 
+      "name": "Crispy Fried Jumbo Prawns", 
+      "description": "Delicious and Healthy Breaded Jumbo Prawns | روبيان جامبو مقلي مقرمش", 
+      "price": "45.00" 
+    },
+    { 
+      "name": "Arabic Mixed Grill", 
+      "description": "Assortment of Shish Tawook, Shish Kebab, Kofta Kebab, Hummus, Garlic Sauce, Arabic Bread | مشاوي عربية مشكلة تتكون من شيش طاووق، شيش كباب، كفتة كباب، حمص، ثوم، وخبز عربي", 
+      "price": "48.00" 
+    },
+    { 
+      "name": "Grilled Prawns", 
+      "description": "روبيان مشوي", 
+      "price": "45.00" 
+    },
+    { 
+      "name": "Shish Tawook", 
+      "description": "شيش طاووق", 
+      "price": "28.00" 
+    },
+    { 
+      "name": "Grilled Chicken Half", 
+      "description": "نصف دجاجة مشوية", 
+      "price": "20.00" 
+    },
+    { 
+      "name": "Chicken Wings Grill", 
+      "description": "أجنحة الدجاج المشوية", 
+      "price": "20.00" 
+    },
+    { 
+      "name": "Kofta Kebab", 
+      "description": "كفتة مشوية", 
+      "price": "30.00" 
+    },
+    { 
+      "name": "Shish Kebab", 
+      "description": "شيش كباب", 
+      "price": "35.00" 
+    }
+  ]
+}
+
+  
+  
+]
