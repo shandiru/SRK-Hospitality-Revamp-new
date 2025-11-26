@@ -23,7 +23,7 @@ import GDPRConsent from "./components/GDPRButton.jsx";
 import TermsConditions from "./components/Term.jsx";
 import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
 import Subway from "./Page/Subway.jsx";
-import Subwaywigston from "./Page/Subwaywigston.jsx";
+import SubwaywigstonPage from "./Page/Subwaywigston.jsx";
 
 export default function App() {
   return (
@@ -44,7 +44,7 @@ export default function App() {
           <Route path="/aspects" element={<Aspects />} />
           <Route path="/toluca" element={<Toluca />} />
           <Route path="/subwaybraunstonegate" element={<Subway />} />
-          <Route path="/subwaywigston" element={<Subwaywigston />} />
+          <Route path="/subwaywigston" element={<SubwaywigstonPage />} />
           <Route path="/fusic" element={<Fusic />} />
           <Route path="/venues" element={<Venu />} />
           <Route path="/RestaurantManagerPage" element={<RestaurantManagerPage />} />

@@ -1,34 +1,49 @@
+
 import React from "react";
 
-// Sections from components/HomePage
-import AboutSection from "../components/Subway/AboutSection";
-import MenuFlipbook from "../components/Subway/MenuFlipbook";
-import Gallery from "../components/Subway/Gallery";
-import ContactSection from "../components/Subway/ContactSection";
-import MapSection from "../components/Subway/MapSection";
-import WelcomeSection from "../components/Subway/WelcomeSection";
+// Common Restaurant Components
+import RestaurantWelcomeSection from "../components/common/restaurant/RestaurantWelcomeSection";
+import RestaurantAboutSection from "../components/common/restaurant/RestaurantAboutSection";
+import RestaurantMenuFlipbook from "../components/common/restaurant/RestaurantMenuFlipbook";
+import RestaurantGallerySection from "../components/common/restaurant/RestaurantGallerySection";
+import RestaurantContactSection from "../components/common/restaurant/RestaurantContactSection";
+import RestaurantMapSection from "../components/common/restaurant/RestaurantMapSection";
+import ContactSection from "../components/Subway/ContactSection"
+// Restaurant Data
+import { SubwayBraunstone } from "../data/SubwayBraunstone/restaurantData";
 
 export default function Subway() {
   return (
     <div>
       {/* Hero */}
       <section>
-        <WelcomeSection />
+        <RestaurantWelcomeSection {...SubwayBraunstone.welcome} />
       </section>
-      <section id="hero">
-        <AboutSection />
-      </section>
+
+      {/* About */}
       <section>
-        <MenuFlipbook />
+        <RestaurantAboutSection {...SubwayBraunstone.about} />
       </section>
+
+      {/* Menu */}
       <section>
-        <Gallery />
+        <RestaurantMenuFlipbook {...SubwayBraunstone.menu} />
       </section>
+
+      {/* Gallery */}
+      <section>
+        <RestaurantGallerySection {...SubwayBraunstone.gallery} />
+      </section>
+
+      {/* Contact */}
       <section>
         <ContactSection />
+        {/* <RestaurantContactSection {...alnaseebData.contact} /> */}
       </section>
+
+      {/* Map */}
       <section>
-        <MapSection />
+        <RestaurantMapSection {...SubwayBraunstone.map} />
       </section>
     </div>
   );

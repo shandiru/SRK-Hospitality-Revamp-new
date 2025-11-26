@@ -1,34 +1,48 @@
+
 import React from "react";
 
-// Sections from components/HomePage
-import AboutSection from "../components/SubwayWiston/AboutSection";
-import MenuFlipbook from "../components/SubwayWiston/MenuFlipbook";
-import Gallery from "../components/SubwayWiston/Gallery";
-import ContactSection from "../components/SubwayWiston/ContactSection";
-import MapSection from "../components/SubwayWiston/MapSection";
-import WelcomeSection from "../components/SubwayWiston/WelcomeSection";
+// Common Restaurant Components
+import RestaurantWelcomeSection from "../components/common/restaurant/RestaurantWelcomeSection";
+import RestaurantAboutSection from "../components/common/restaurant/RestaurantAboutSection";
+import RestaurantMenuFlipbook from "../components/common/restaurant/RestaurantMenuFlipbook";
+import RestaurantGallerySection from "../components/common/restaurant/RestaurantGallerySection";
+import RestaurantMapSection from "../components/common/restaurant/RestaurantMapSection";
+import ContactSection from "../components/SubwayWiston/ContactSection"
+// Restaurant Data
+import { Subwaywigston } from "../data/Subwaywigston/restaurantData";
 
-export default function Subwaywigston() {
+export default function SubwaywigstonPage() {
   return (
     <div>
       {/* Hero */}
       <section>
-        <WelcomeSection />
+        <RestaurantWelcomeSection {...Subwaywigston.welcome} />
       </section>
-      <section id="hero">
-        <AboutSection />
-      </section>
+
+      {/* About */}
       <section>
-        <MenuFlipbook />
+        <RestaurantAboutSection {...Subwaywigston.about} />
       </section>
+
+      {/* Menu */}
       <section>
-        <Gallery />
+        <RestaurantMenuFlipbook {...Subwaywigston.menu} />
       </section>
+
+      {/* Gallery */}
+      <section>
+        <RestaurantGallerySection {...Subwaywigston.gallery} />
+      </section>
+
+      {/* Contact */}
       <section>
         <ContactSection />
+        {/* <RestaurantContactSection {...alnaseebData.contact} /> */}
       </section>
+
+      {/* Map */}
       <section>
-        <MapSection />
+        <RestaurantMapSection {...Subwaywigston.map} />
       </section>
     </div>
   );
